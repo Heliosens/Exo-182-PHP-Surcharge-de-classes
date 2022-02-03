@@ -44,4 +44,20 @@ class Personnage {
     public function getNom() {
         return $this->nom;
     }
+
+    /**
+     * @return int
+     */
+    public function getVie(): int
+    {
+        return $this->vie;
+    }
+
+    /**
+     * @param int $vie
+     */
+    public function setVie(int $vie): void
+    {
+        $this->vie = $vie;
+    }
 } 

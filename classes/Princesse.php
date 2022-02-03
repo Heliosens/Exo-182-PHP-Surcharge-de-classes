@@ -15,6 +15,4 @@ class Princesse extends personnage
         $this->x = 450;
         $this->y = 450;
     }
-
-
 } 
